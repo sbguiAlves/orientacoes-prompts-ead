@@ -1,0 +1,66 @@
+orientacao:1) Informe que a IA irá elaborar questões.2) Forneça a ela o texto do ebook.3) Dê as orientações pertinentes para elaboração de cada modelo de questão. Peça para que ela refaça aumentando o nível de dificuldade. Garanta que as questões cubram boa parte do conteúdo, ou seja, varie os trechos do ebook que servem como base para as questões.4) Utilize os níveis de dificuldades e modelos de Taxonomia de Bloom.5) Faça uma verificação/análise das questões. Veja se estão coerentes ao texto do ebook.6) Solicite a alternativa correta. Faça uma resolução comentada.Converse com a IA durante todo o processo, sempre pedindo melhorias. Você é o responsável pelos textos, ela deve apenas te auxiliar com melhorias.
+
+Passo 1: Você é um assistente que cria questões para avaliações de pós-graduação e irá criar questões seguindo o texto-base a seguir: ""
+
+**Aguarde a IA responder
+
+Passo 3: Insira neste passo o conteúdo do ebook <ebook>.
+
+**Aguarde a IA responder
+
+Passo 4: Crie uma questão de múltipla escolha com cinco alternativas, uma correta e quatro distratoras, de taxonomia <entender> e tipo <resposta única>.
+
+**Aguarde a IA responder
+
+Passo 5: Crie uma resolução comentada para a questão, sendo um texto corrido de fácil compreensão do assunto. Não informe as alternativas na resolução.
+ 
+**Aguarde a IA responder
+
+Obs.: Se necessário, aumente o grau da dificuldade da questão. Sua avaliação é muito importante!
+
+Passo 6: Aumente o grau de dificuldade da questão, utilizando a seguinte orientação:
+1.Médio • Descrição: Questões que requerem uma compreensão mais profunda e a capacidade de aplicar conceitos básicos. • Exemplo: Problemas que exigem cálculos simples, perguntas que exigem explicação de conceitos.
+
+**Aguarde a IA responder
+
+Passo 7: Crie uma questão múltipla escolha com cinco alternativas de taxonomia avaliar e tipo lacuna com no mínimo três lacunas. Utilize outro trecho do texto-base, que seja diferente da questão anterior.
+
+**Aguarde a IA responder
+
+Obs.: Se necessário, aumente o grau da dificuldade da questão. Sua avaliação é muito importante!
+
+Passo 8: Aumente o grau de dificuldade da questão, utilizando o seguinte exemplo:
+2.Difícil • Descrição: Questões que demandam uma compreensão avançada e a capacidade de aplicar conceitos de forma mais complexa. • Exemplo: Problemas que envolvem múltiplos passos, perguntas que exigem análise crítica e síntese de informações.
+
+**Aguarde a IA responder
+
+Passo 9: Crie outra questão múltipla escolha de taxonomia analisar e tipo verdadeiro ou falso, com cinco asserções verdadeiras ou falsas no corpo da questão e cinco alternativas sendo combinações da sequência de verdadeiro e falso. Utilize outro trecho do texto-base, que seja diferente das questões anteriores.
+
+**Aguarde a IA responder
+
+Obs.: Se necessário, aumente o grau da dificuldade da questão. Sua avaliação é muito importante!
+
+Passo 10: Aumenta o grau de dificuldade da questão, utilizando o seguinte exemplo: 
+3.Muito Difícil • Descrição: Questões que exigem um nível muito elevado de conhecimento e habilidades analíticas. • Exemplo: Problemas que envolvem conceitos avançados, perguntas que requerem soluções criativas e inovadoras.
+
+**Aguarde a IA responder
+
+Passo 11: Crie uma questão de taxonomia aplicar e tipo múltipla escolha, com cinco asserções que podem ser corretas ou não, e alternativas que contenham quais são corretas. Utilize outro trecho do texto-base, que seja diferente das questões anteriores. 
+
+**Aguarde a IA responder
+
+Obs.: Se necessário, aumente o grau da dificuldade da questão. Sua avaliação é muito importante!
+
+Passo 12: Aumenta o grau de dificuldade da questão, utilizando o seguinte exemplo:
+4.Desafiante • Descrição: Questões que são projetadas para desafiar até mesmo os indivíduos mais experientes no assunto.
+
+**Aguarde a IA responder
+
+Passo 13: Crie uma questão de taxonomia analisar e tipo associação com cinco alternativas. Utilize outro trecho do texto-base, diferente das questões anteriores.
+
+**Aguarde a IA responder
+
+Obs.: Se necessário, aumente o grau da dificuldade da questão. Sua avaliação é muito importante!
+
+Passo 14: Aumente o grau de dificuldade da questão, utilizando o seguinte exemplo:
+5.Competitivo • Descrição: Questões que são utilizadas em competições e exames de alto nível, onde a precisão e a profundidade do conhecimento são essenciais. • Exemplo: Problemas de olimpíadas científicas, exames de certificação profissional.
