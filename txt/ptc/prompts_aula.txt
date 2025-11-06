@@ -1,0 +1,17 @@
+videoaula:Elabore uma descrição em texto corrido, com no máximo 80 palavras para um vídeo introdutório sobre [nome da aula] aos estudantes de graduação EaD. A descrição deve apresentar os conteúdos [liste os conteúdos fundamentais] que serão abordados no vídeo, contextualizado ao mercado de trabalho. Utilize uma linguagem engajadora que motive os estudante a assistirem ao vídeo.
+
+partida1:Você é docente em [nome da disciplina] e dará a aula sobre [nome da aula]. A partir dos conteúdos fundamentais [liste os conteúdos], introduza-os brevemente com conceitos de forma engajadora.
+
+partida2:Adicionalmente, elabore uma problematização. Nela, o estudante deve se ver parte da situação, como se estivesse atuando profissionalmente. Não utilize nomes fictícios de empresas ou pessoas. Levante perguntas para reflexão, mas não traga a resposta para a problematização.
+
+partida3:A partir de todo o texto criado, reescreva e utilize um tom [dialógico, profissional, empático ou formal]. Conclua com uma mensagem encorajadora, incentivando o estudante a continuar na aula para desenvolver os conteúdos.
+
+vc_sef:Você é docente em [nome da disciplina]. A partir dos conteúdos fundamentais [liste os conteúdos], sugira subtópicos e assuntos que podem ser tratados em uma aula [teórica e/ou prática].
+
+exercitar1:Você é docente em [nome da disciplina]. Recapitule brevemente a problematização a seguir em formato de resumo: [insira o texto do ponto de partida].
+
+exercitar2:Considerando a problematização dada, apresente uma solução alinhada ao mercado de trabalho, sintetizada a partir do texto a seguir: [texto do Vamos Começar & Siga em Frente].
+
+saiba_mais1:Farei a recomendação da leitura [insira a indicação, conforme as normas ABNT]. Elabore um texto que incentive o estudante a ler a indicação sugerida, usando o modelo a seguir: "Olá, estudante! À medida que você conheceu sobre [tema explorado na aula], recomendamos a leitura do Capítulo X do livro 'Y', por 'Z'. Confira o link a seguir: 'link'".
+
+saiba_mais2:A partir do texto elaborado, reescreva em um tom [dialógico/empático/formal].
