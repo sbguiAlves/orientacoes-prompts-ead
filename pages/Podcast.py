@@ -38,4 +38,3 @@ st.write("Aguarde a IA responder, escolha um dos itens da sua resposta.")
 
 st.code(variaveis["podcast4"],language="None", wrap_lines=True)
 
-st.page_link("pages/Index.py", label="Home", icon="🏠")

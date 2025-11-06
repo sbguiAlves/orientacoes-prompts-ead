@@ -20,7 +20,7 @@ def ler_variaveis(nome_arquivo):
         st.error(f"Arquivo não encontrado: {nome_arquivo}")
     return variaveis
 
-variaveis = ler_variaveis('txt/graduacao/prompts_encerramento.txt')
+variaveis = ler_variaveis('txt/ptc/prompts_encerramento.txt')
 
 st.title("Orientações para Template Encerramento")
 st.divider()
