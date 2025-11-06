@@ -19,7 +19,6 @@ def ler_variaveis(nome_arquivo):
     except FileNotFoundError:
         st.error(f"Arquivo não encontrado: {nome_arquivo}")
     return variaveis
-variaveis = ler_variaveis('txt/posgrad/prompts_podcast.txt')
 
 st.title("Orientações para Podcast")
 st.divider()

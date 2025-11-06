@@ -15,6 +15,9 @@ pages = {
         st.Page("pages/Questoes/Assercao-Razao.py", title="Asserção-Razão"),
         st.Page("pages/Questoes/Incompleta.py", title="Afirmação Incompleta"),
         st.Page("pages/Questoes/Discursiva.py", title="Discursiva")
+    ],
+    "Multimídia": [
+    st.Page("pages/Podcast.py", title="Roteiro Podcast"),
     ]
 }
 

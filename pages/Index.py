@@ -11,17 +11,14 @@ st.markdown("""
     }
     /* Estilizar os links principais */
     .main-link {
-        font-size: 20px;
+        font-size: 24px;
         color: #2E2E2E;
-    }
-    /* Centralizar os links */
-    .links-container {
-        text-align: center;
     }
     /* Texto abaixo da seção */
     .section-text {
-        font-size: 20px; /* Mesmo tamanho dos links */
+        font-size: 24px; /* Mesmo tamanho dos links */
         color: #2E2E2E;
+        text-align: justify;
     }
     /* Ajuste da imagem do logo */
     .logo {
@@ -54,36 +51,72 @@ st.markdown("""
         margin-bottom: 5px;
         margin-top: -5px;
     }
+    
 </style>
 """, unsafe_allow_html=True)
 
-# Cabeçalho com logo à esquerda e título
+# Cabeçalho com logo e título
 col1, col2 = st.columns([1, 8])
 with col1:
-    st.image("Cogna-01.png", width=200)
+    st.image("Cogna-01.png", width=400)
 with col2:
-    st.markdown(""" <h1 class='title'>CognaIA - Prompts para Conteudistas EaD</h1>""", unsafe_allow_html=True)
+    st.markdown("""<h1 class='title'>CognaIA - Prompts para Conteudistas EaD</h1>""", unsafe_allow_html=True)
 
-st.markdown(""" <div class='links-container'> <p class='main-link'>Acesse o Cogna IA: <a href='https://ia.tech.cogna.com.br/' target='_blank'>Clique aqui</a></p> </div> """, unsafe_allow_html=True)
+st.markdown("""
+    <div class='links-container'>
+        <p class='main-link' style="text-align: center">Acesse o Cogna IA: 
+            <a href='https://ia.tech.cogna.com.br/' target='_blank'>Clique aqui</a>
+        </p>
+    </div>
+""", unsafe_allow_html=True)
 
+# Seção de utilização do Cogna IA
+st.markdown("<h2 class='section-header'> 📚 Como utilizar o Cogna IA? </h2>", unsafe_allow_html=True)
+st.markdown("""
+<div class='section-text'>
+    <ul style="font-size: 16px;">
+        <li>Utilize os prompts exclusivamente no Cogna IA para garantir que informações permaneçam protegidas dentro da instituição.</li>
+        <li>Os prompts são sugestões baseadas em boas práticas; adapte-os conforme a necessidade da produção acadêmica.</li>
+        <li>Transponha manualmente o texto gerado, ao invés de apenas copiar e colar.</li>
+    </ul>
+</div>
+""", unsafe_allow_html=True)
 
-# Seção: Prompts de Utilização Cogna IA
-st.markdown("<h2 class='section-header'> 📚 Como utilizar? </h2>", unsafe_allow_html=True)
-st.markdown("<p class='section-text'>Clique na atividade, copie o texto, cole no Cogna IA e faça as alterações necessárias.</p>", unsafe_allow_html=True)
-col1, col2, col3 = st.columns(3)
-# Coluna 1
+ct = st.container(border=True)
+
+col1, col2, col3 = ct.columns(3)
+
 with col1:
     st.subheader("Textos")
-    st.page_link("pages/graduacao/Grad_Aula.py", label="Aula Textual", icon="🏠")
-    st.page_link("pages/graduacao/Grad_Enc.py", label="Aula Encerramento", icon="🏠")
+    st.page_link("pages/graduacao/Grad_Aula.py", label="Aula Textual", icon="📝")
+    st.page_link("pages/graduacao/Grad_Enc.py", label="Aula Encerramento", icon="📝")
 
-# Coluna 2
 with col2:
-   st.subheader("Questões")
-   st.page_link("pages/Questoes/Simples.py", label="Múltipla Escolha", icon="🏠")
-   #st.page_link("pages/graduacao/Grad_Questoes.py", label="Discursiva", icon="🏠")
+    st.subheader("Questões")
+    st.page_link("pages/Questoes/Simples.py", label="Escolha Simples", icon="❓")
+    st.page_link("pages/Questoes/Complexa.py", label="Escolha Complexa", icon="❓")
+    st.page_link("pages/Questoes/Assercao-Razao.py", label="Asserção-Razão", icon="❓")
+    st.page_link("pages/Questoes/Incompleta.py", label="Afirmação Incompleta", icon="❓")
+    st.page_link("pages/Questoes/Discursiva.py", label="Questão Discursiva", icon="❓")
 
-# Coluna 3
 with col3:
     st.subheader("Multimídia")
-    # st.page_link("pages/Podcast.py", label="Roteiro Podcast", icon="🏠")
+    st.page_link("pages/Podcast.py", label="Roteiro Podcast", icon="🎙️")
+
+# Texto final com justificativa e estilo
+st.markdown("""
+<p class='section-text'>
+    Os prompts acima são sugestões baseadas em boas práticas; adapte-os conforme a necessidade da sua produção acadêmica. 
+    Evite a IA para sugerir <u>Referências Bibliográficas</u> devido a possibilidade de gerar fontes inexistentes (alucinações).
+    Utilize como auxílio para formatar as referências ou organizar a ordem alfabética, conforme a norma que está sendo utilizada.
+    <br><br>
+    Para demais informações, consulte as trilhas a seguir:
+</p>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+        <ul>
+            <li><a href='https://view.genially.com/68e40d9c6aaa5a65d68b9ee0/guide-como-criar-prompts' target='_blank'>Como criar bons prompts? (Genial.ly)</a></li>
+            <li><a href='https://view.genially.com/66b2104ca4806c05a3fdd8b6/guide-producao-assistida-com-cogna-ia' target='_blank'>Produção Assistida com Cogna IA (Genial.ly)</a></li>
+        </ul>
+""", unsafe_allow_html=True)

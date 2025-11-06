@@ -47,10 +47,3 @@ st.header(":orange[Assimile: Recomendação Média]")
 st.code(variaveis["assimile1"], language="None", wrap_lines=True)
 st.code(variaveis["assimile2"], language="None", wrap_lines=True)
 st.write(":red[Atenção!] O Cogna IA não produz mapas mentais, infográficos, tirinhas, linhas do tempo, etc. Utilize outras ferramentas para criar o objeto.")
-
-
-st.divider()
-st.header(":red[Referências: Recomendação Nula]")
-st.write("Devido às :blue[alucinações], a IA pode referenciar materiais que não existem na Internet ou na Biblioteca Virtual. Além disso, a ferramenta não possui conhecimento atualizado sobre as normas ABNT.")
-
-st.page_link("Index.py", label="Home", icon="🏠")

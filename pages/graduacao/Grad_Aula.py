@@ -46,9 +46,3 @@ st.divider()
 st.header(":orange[Saiba Mais: Recomendação Média]")
 st.code(variaveis["saiba_mais1"], language="None", wrap_lines=True)
 st.code(variaveis["saiba_mais2"], language="None", wrap_lines=True)
-
-st.divider()
-st.header(":red[Referências: Recomendação Nula]")
-st.write("Devido às :blue[alucinações], a IA pode referenciar materiais que não existem na Internet ou na Biblioteca Virtual. Além disso, a ferramenta não possui conhecimento atualizado sobre as normas ABNT.")
-
-st.page_link("pages/Index.py", label="Home", icon="🏠")
