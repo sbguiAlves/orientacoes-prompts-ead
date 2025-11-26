@@ -113,10 +113,3 @@ st.markdown("""
     Para demais informações, consulte as trilhas a seguir:
 </p>
 """, unsafe_allow_html=True)
-
-st.markdown("""
-        <ul>
-            <li><a href='https://view.genially.com/68e40d9c6aaa5a65d68b9ee0/guide-como-criar-prompts' target='_blank'>Como criar bons prompts? (Genial.ly)</a></li>
-            <li><a href='https://view.genially.com/66b2104ca4806c05a3fdd8b6/guide-producao-assistida-com-cogna-ia' target='_blank'>Produção Assistida com Cogna IA (Genial.ly)</a></li>
-        </ul>
-""", unsafe_allow_html=True)
