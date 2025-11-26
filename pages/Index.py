@@ -109,7 +109,5 @@ st.markdown("""
     Os prompts acima são sugestões baseadas em boas práticas; adapte-os conforme a necessidade da sua produção acadêmica. 
     Evite a IA para sugerir <u>Referências Bibliográficas</u> devido a possibilidade de gerar fontes inexistentes (alucinações).
     Utilize como auxílio para formatar as referências ou organizar a ordem alfabética, conforme a norma que está sendo utilizada.
-    <br><br>
-    Para demais informações, consulte as trilhas a seguir:
 </p>
 """, unsafe_allow_html=True)
