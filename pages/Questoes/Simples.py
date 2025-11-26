@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 def ler_variaveis(nome_arquivo):
     variaveis = {}
     try:
@@ -33,8 +32,6 @@ def taxonomia_bloom(variaveis, container):
 
 
 # Inicializa o session state
-if 'tipo_selecionado' not in st.session_state:
-    st.session_state.tipo_selecionado = None
 if 'taxonomia_selecionada' not in st.session_state:
     st.session_state.taxonomia_selecionada = None
 
@@ -42,17 +39,21 @@ variaveis = ler_variaveis('txt/questoes/prompts_questoes.txt')
 
 st.title("Múltipla Escolha Simples")
 st.divider()
-st.markdown("""
-<p class='section-text'> Utilize o primeiro prompt a seguir para contextualizar a IA:</p>""", unsafe_allow_html=True)
+st.markdown("""<h3 style="color: #5219A1"> Primeiro Prompt: Contextualize!</h3>""", unsafe_allow_html=True)
 st.code(variaveis["intro_simples"], language="None", wrap_lines=True)
-st.markdown("""<p>Para adequar o enunciado diante da instrução/ordem a ser abordada, selecione uma da Taxonomia a seguir</p>""")
+st.divider()
+st.markdown("""
+    <h3 style="color: #5219A1">Segundo Prompt: Especifique, pela Taxonomia de Bloom!</h3>
+    <p>Para o enunciado de Múltipla Escolha Simples, utilize: </p>
+    """, unsafe_allow_html=True)
+# st.code("", language="None", wrap_lines=True) Melhorar essa parte
 
 container_bloom = st.container(border=True)
 
 with container_bloom:
     taxonomia_bloom(variaveis, container_bloom)
 
-st.markdown("""<p>Caso queira adequar a questão para a estrutura padrão recomendada, utilize o prompt a seguir como exemplificação: </p>""")
+st.markdown("""<h3 style="color: #5219A1">Terceiro Prompt: Exemplifique! </h3>""", unsafe_allow_html=True)
 st.code("""\"TEXTO-BASE: Devido à composição, os microfones dinâmicos apresentam maior robustez e resistência a altos volumes e são recomendados para situações com muita movimentação ou presença de ruídos indesejados. Em contrapartida, os microfones condensadores são mais sensíveis, possuindo diafragmas leves capazes de captar detalhes muito sutis. 
 
 ENUNCIADO: Considerando os critérios de robustez e sensibilidade dos microfones na escolha do equipamento ideal, para gravar diálogos em estúdio deve-se usar 

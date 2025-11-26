@@ -20,6 +20,8 @@ def ler_variaveis(nome_arquivo):
         st.error(f"Arquivo não encontrado: {nome_arquivo}")
     return variaveis
 
+variaveis = ler_variaveis('txt/prompts_podcast.txt')
+
 st.title("Orientações para Podcast")
 st.divider()
 st.write("O podcast deve incluir um relato de experiência, uma evolução, curiosidade, ou boas práticas. Escolha o caminho que melhor se adeque à sua disciplina.")
