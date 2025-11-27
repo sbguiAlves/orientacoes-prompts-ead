@@ -78,8 +78,6 @@ um microfone omnidirecional em todas as situações, independentemente do tipo p
             """, language="None", wrap_lines=True)
 
 # Exibe as opções selecionadas
-if st.session_state.tipo_selecionado:
-    st.code(variaveis.get(st.session_state.tipo_selecionado, "Código não encontrado"), language="None", wrap_lines=True)
 if st.session_state.taxonomia_selecionada:
     st.code(variaveis.get(st.session_state.taxonomia_selecionada, "Código não encontrado"), language="None",
             wrap_lines=True)

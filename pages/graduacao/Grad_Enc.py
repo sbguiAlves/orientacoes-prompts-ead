@@ -46,4 +46,12 @@ st.divider()
 st.header(":orange[Assimile: Recomendação Média]")
 st.code(variaveis["assimile1"], language="None", wrap_lines=True)
 st.code(variaveis["assimile2"], language="None", wrap_lines=True)
-st.write(":red[Atenção!] O Cogna IA não produz mapas mentais, infográficos, tirinhas, linhas do tempo, etc. Utilize outras ferramentas para criar o objeto.")
+
+st.markdown("""
+<p>O Cogna IA não produz mapas mentais, infográficos, tirinhas, linhas do tempo, etc. Utilize outras ferramentas para criar o objeto, como:</p>
+<ul>
+    <li><a href="https://www.napkin.ai/" target="_blank">Napkin: Esquemas visuais a partir de um texto.</a></li>
+    <li><a href="https://www.canva.com/" target="_blank">Canva: Kit de criação visual. </a></li>
+    <li><a href="https://claude.ai/" target="_blank">Claude: Criação de esquemas visuais via HTML</a></li>
+</ul>
+""", unsafe_allow_html=True)

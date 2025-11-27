@@ -33,8 +33,6 @@ def taxonomia_bloom(variaveis, container):
 
 
 # Inicializa o session state
-if 'tipo_selecionado' not in st.session_state:
-    st.session_state.tipo_selecionado = None
 if 'taxonomia_selecionada' not in st.session_state:
     st.session_state.taxonomia_selecionada = None
 
@@ -55,8 +53,6 @@ st.markdown("""<h3 style="color: #5219A1">Terceiro Prompt: Exemplifique! </h3>""
 st.code("""EXEMPLO""", language="None", wrap_lines=True)
 
 # Exibe as opções selecionadas
-if st.session_state.tipo_selecionado:
-    st.code(variaveis.get(st.session_state.tipo_selecionado, "Código não encontrado"), language="None", wrap_lines=True)
 if st.session_state.taxonomia_selecionada:
     st.code(variaveis.get(st.session_state.taxonomia_selecionada, "Código não encontrado"), language="None",
             wrap_lines=True)

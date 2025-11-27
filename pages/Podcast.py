@@ -24,19 +24,13 @@ variaveis = ler_variaveis('txt/prompts_podcast.txt')
 
 st.title("Orientações para Podcast")
 st.divider()
-st.write("O podcast deve incluir um relato de experiência, uma evolução, curiosidade, ou boas práticas. Escolha o caminho que melhor se adeque à sua disciplina.")
-st.code(variaveis["podcast1"],language="None", wrap_lines=True)
-st.code(variaveis["podcast2"],language="None", wrap_lines=True)
+st.markdown("""<h3 style="color: #5219A1">1º Prompt: Contextualize!</h3>
+<p>O podcast partir de uma contextualização que inclua um relato de experiência, uma evolução, curiosidade, ou boas práticas.
+ Escolha o caminho que melhor se adeque à sua disciplina.</p>""", unsafe_allow_html=True)
+st.code(variaveis["intropodcast"],language="None", wrap_lines=True)
 
-st.write("Converse com a IA durante todo o processo, sempre pedindo melhorias. Você é o responsável pelos textos, ela deve apenas te auxiliar com avanços. Fique à vontade para não utilizar a IA também, trazendo sua bagagem profissional que possa contribuir e ensinar o máximo possível aos alunos.")
+st.markdown("""<h3 style="color: #5219A1">2º Prompt: Especifique!</h3>""", unsafe_allow_html=True)
+st.code(variaveis["meiopodcast"],language="None", wrap_lines=True)
 
-st.write("Todos os passos são sugestões, apenas. As questões são de sua autoria e você deve cria-las de acordo com sua experiência como profissional.")
-
-st.code(variaveis["podcast3"],language="None", wrap_lines=True)
-
-st.divider()
-
-st.write("Aguarde a IA responder, escolha um dos itens da sua resposta.")
-
-st.code(variaveis["podcast4"],language="None", wrap_lines=True)
-
+st.markdown("""<h3 style="color: #5219A1">3º Prompt: Restrinja!</h3>""", unsafe_allow_html=True)
+st.code(variaveis["fimpodcast"],language="None", wrap_lines=True)
